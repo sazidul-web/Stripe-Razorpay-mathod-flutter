@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:razorpay_pyment/main.dart';
-import 'package:razorpay_pyment/main2.dart';
+// import 'package:razorpay_pyment/Paypal.dart';
+// import 'package:razorpay_pyment/Rozarpay.dart';
+import 'package:razorpay_pyment/Stripe.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
+    // await tester.pumpWidget(MyApp());
     await tester.pumpWidget(MyApp());
     // await tester.pumpWidget(MyApp());
 
